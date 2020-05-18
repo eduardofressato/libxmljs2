@@ -1,9 +1,10 @@
 {
-  "name": "libxmljs2",
-  "author": "marudor",
+  "name": "libxmljs3",
+  "author": "eduardofressato",
   "contributors": [
     "Jeff Smick",
-    "Marco Rogers"
+    "Marco Rogers",
+    "marudor"
   ],
   "binary": {
     "module_name": "xmljs",
@@ -13,7 +14,7 @@
     "package_name": "{node_abi}-{platform}-{arch}-{libc}.tar.gz"
   },
   "description": "libxml bindings for v8 javascript engine",
-  "version": "0.25.3",
+  "version": "0.25.4",
   "scripts": {
     "build": "node-pre-gyp install --build-from-source",
     "install": "node-pre-gyp install --fallback-to-build --loglevel http",
